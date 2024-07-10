@@ -10,6 +10,10 @@
 }
 
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* shared styles */
 .primary-color {
     color: #0D1321;
@@ -143,7 +147,9 @@ main {
     display: flex;
     align-items: center;
 }
-
+.flex-child {
+    padding: 45px 0;
+}
 .flex-row-reverse {
     flex-direction: row-reverse;
 }
@@ -178,6 +184,9 @@ main {
 
 
 /* my current target section */
+.my-target-section {
+    margin-bottom: 24px;
+}
 .my-target-section > div {
     margin: 0px 100px 48px 100px;
 }
@@ -205,4 +214,52 @@ main {
     padding: 0;
 }
 
-/* background: rgba(0, 76, 232, 0.05); */
+
+/* footer */
+footer {
+    background-color: rgba(0, 0, 0,0.3);
+    background-image: url('../img/handshake.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 314px;
+    width: 100%;
+    border-radius: 8px;
+    background-blend-mode: overlay;
+}
+footer > div {
+    padding: 64px 48px;
+    text-align: center;
+
+
+}
+
+footer > div > h4  {
+    font-size: 32px;
+    color: white;
+    margin-bottom: 16px;
+}
+
+footer > div > p {
+    color: white;
+    margin-bottom: 24px;
+}
+
+footer input {
+    width: 500px;
+    height: 50px;
+    border-radius: 8px;
+    padding: 19px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.btn-footer {
+    border: none;
+    border-radius: 8px;
+    padding: 14px;
+}
