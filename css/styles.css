@@ -222,10 +222,12 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 314px;
-    width: 100%;
+    height: 310px;
+    width: 80%;
     border-radius: 8px;
     background-blend-mode: overlay;
+    margin: 0 auto;
+    
 }
 footer > div {
     padding: 64px 48px;
@@ -262,4 +264,15 @@ form {
     border: none;
     border-radius: 8px;
     padding: 14px;
+}
+
+.social-media-container {
+    margin-top: 117px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+.social-media-container > h4 {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
 }
