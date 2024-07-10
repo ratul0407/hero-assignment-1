@@ -14,7 +14,9 @@
 .primary-color {
     color: #0D1321;
 }
-
+.text-center {
+    text-align: center;
+}
 .btn-hover:hover {
     background-color: rgb(13, 19, 33);
     color: white;
@@ -34,6 +36,11 @@ p {
     font-weight: 800;
 }
 
+
+/* short styles */
+.css-color {
+    background: rgba(0, 76, 232, 0.05);
+}
 /* navbar styles */
 nav ul {
     display: flex;
@@ -157,11 +164,45 @@ main {
 /* INSPIRATION SECTION */
 .inspiration-section {
     text-align: center;
+    margin-bottom: 150px;
 }
 .inspiration-section > div {
     margin-bottom: 80px;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 .inspiration-title {
     font-size: 32px;
     margin-bottom: 24px;
 }
+
+
+/* my current target section */
+.my-target-section > div {
+    margin: 0px 100px 48px 100px;
+}
+.my-target-section > div > h3 {
+    font-size: 32px;
+    margin-bottom: 24px;
+
+}
+
+.my-target-section > .flex {
+    gap: 24px;
+}
+.my-target-section > .flex > div {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    padding: 10px;
+    gap: 25px;
+    width: 100%;
+}
+.btn-special {
+    border: none;
+    text-decoration: underline;
+    padding: 0;
+}
+
+/* background: rgba(0, 76, 232, 0.05); */
